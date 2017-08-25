@@ -1,0 +1,62 @@
+body {
+	font-family: "Montserrat","Lato",sans-serif;
+}
+
+#backgroundImg {
+ 	background: url('../img/geo.png') top right no-repeat;
+	opacity: 0.2;
+	z-index: -1;
+	position: absolute;
+}
+
+
+#header {
+	background-color: #555;
+	z-index: 1;
+	text-align: center;
+	color: white;
+	font-weight: bolder;
+	width: 100%;
+}
+
+h1 {
+	height: 100px;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-top: 30px;
+}
+
+
+#homeContainer {
+	position: absolute;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+
+
+#goToStudent {
+	border: 10px solid orange;
+	max-width: 40%;
+}
+
+#goToGrad {
+	border: 10px solid orange;
+	z-index: 2;
+	max-width: 40%;
+}
+
+img {
+	width: 80%;
+	flex-align: bottom;
+}
+
+
+
+
+
+
+
+
+
