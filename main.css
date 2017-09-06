@@ -13,7 +13,7 @@ body {
 
 /****** PAGE HEADERS ******/
 #home-header {
-	height: 200px;
+	height: 150px;
 	background-color: #555;
 	z-index: 1;
 	text-align: center;
@@ -66,8 +66,7 @@ img {
 	height: 175px;
 	width: 175px;
 	padding: 10px;
-	border-radius: 50%;
-	background-color: whtie;
+/*	border-radius: 50%;*/
 }
 
 .status {
@@ -101,20 +100,27 @@ img {
 	display: block;
 	background-color: lightgrey;
 	border-radius: 10px;
-	margin-top: 5%;
+	margin-top: 1%;
 }
 
 .reminder {
 	color: red;
+	text-align: center;
 }
 
+
 .calendar {
-	font-size: 3em;
+	font-size: 2em;
 	margin-top: 5%;
 	letter-spacing: 10px;
 	color: #f5881f;
 }
 
+#cal-modal {
+	min-width: 768px;
+	max-width: 1200px;
+	margin: 30px auto;
+}
 
 footer {
 	background-color: #555;
